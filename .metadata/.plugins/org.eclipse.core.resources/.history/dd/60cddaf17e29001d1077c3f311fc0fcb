@@ -1,0 +1,15 @@
+package br.com.residencia.poo.aula1;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		
+		public nome = Gabriel;
+		
+		System.out.println("Informe o seu nome: ");
+		System.out.println("Olá Mundo!");
+		System.out.print("Olá ", nome, "!!");
+		
+	}
+
+}

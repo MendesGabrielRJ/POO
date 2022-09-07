@@ -1,0 +1,17 @@
+package lista1;
+
+public class Ex_4 {
+
+	double tempC, tempF;
+	Scanner ler = new Scanner(System.in);
+	
+	System.out.println ("Digite a temperatura em Celcius a ser convertida: ");
+	tempC = ler.nextDouble();
+	
+	tempF = (tempC*1.8+32);
+	System.out.println(tempC + "° é equivalente a: " + tempF + "°F");
+		
+	ler.close();
+	}
+
+}

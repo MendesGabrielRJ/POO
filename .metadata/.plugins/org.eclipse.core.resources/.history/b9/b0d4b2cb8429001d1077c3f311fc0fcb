@@ -1,0 +1,16 @@
+package br.com.residencia.poo.aula1;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		//System.out.println("Olá Mundo!");
+		Scanner sc = new Scanner (System.in);
+		String nome;
+		
+		System.out.println("Diga o seu nome: ");
+		nome = sc.nextLine();
+		
+		
+	}
+}

@@ -1,0 +1,39 @@
+/*  cadeia nome, sobreNome;
+    inteiro idade;
+  
+ escreva("Diga o seu nome: ")
+ 	leia(nome)	
+ escreva("E diga o seu sobrenome: ")
+ 	leia(sobreNome)
+ escreva("E qual a sua idade: ")
+ 	leia(idade)
+ escreva("Olá ", nome, " ", sobreNome, " você tem ", idade, "anos de idade!!!")
+ */
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		//System.out.println("Olá Mundo!");
+		
+		Scanner ler = new Scanner (System.in); //Instância
+		String nome, sobreNome;
+		Integer idade;
+		
+		System.out.println("Diga o seu nome: ");
+		nome = ler.nextLine();
+		
+		System.out.println("E diga o seu sobrenome: ");
+		sobreNome = ler.nextLine();
+		
+		System.out.println("E qual a sua idade: ");
+		idade = ler.nextInt();
+		
+		System.out.println("Olá "+nome +" "+sobreNome +" você tem "+idade +" anos de idade!!!");
+		ler.close();
+		
+	}
+}

@@ -1,0 +1,17 @@
+package lista1;
+
+import java.util.Scanner;
+
+public class Ex_4 {
+
+	double tempC, tempF;
+	Scanner ler = new Scanner(System.in);
+	
+	System.out.println ("Digite a temperatura em Celcius a ser convertida: ");
+	tempC = ler.nextDouble();
+	
+	
+	
+	
+	
+

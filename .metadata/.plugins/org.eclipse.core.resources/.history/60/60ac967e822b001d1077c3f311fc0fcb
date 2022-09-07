@@ -1,0 +1,13 @@
+package br.com.residencia.poo.aula2;
+
+public class Ja {
+
+public static void main(String[] args) {
+    String j = "*";
+	for(int i=1; i<=20; i++){
+		
+		System.out.println(j);
+    	j+="*";
+		}
+	}
+}

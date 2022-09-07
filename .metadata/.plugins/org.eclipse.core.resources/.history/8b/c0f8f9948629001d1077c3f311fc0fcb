@@ -1,0 +1,25 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		//System.out.println("Olá Mundo!");
+		Scanner sc = new Scanner (System.in); //Instância
+		String nome, sobreNome;
+		Integer idade;
+		
+		System.out.println("Diga o seu nome: ");
+		nome = sc.nextLine();
+		
+		System.out.println("E diga o seu sobrenome: ");
+		sobreNome = sc.nextLine();
+		
+		System.out.println("E qual a sua idade: ");
+		idade = sc.nextInt()
+		
+		System.out.println("Olá "+nome +" "+sobreNome +" você tem "+idade +"anos de idade!!!");
+	}
+}

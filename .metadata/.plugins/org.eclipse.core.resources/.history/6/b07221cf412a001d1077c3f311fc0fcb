@@ -1,0 +1,35 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	
+	String nomeAluno, materia;
+	Integer nota, totalNota, media;
+	
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		
+		System.out.println("Informe o nome do aluno: ");
+		nome = ler.nextLine();
+
+		System.out.println("Informe a disciplina: ");
+		materia = ler.nextLine();
+		
+		int cont = 1;
+		double totalNotas = 0.0, media;
+		do {
+		    System.out.println("Insira a nota"+cont+": ");
+		    double nota = ler.nextDouble();
+		    totalNotas += nota;
+		    	cont++;
+		} while (cont <= 3);
+		
+		media = totalNotas/3;
+		System.out.println("Olá, "+nome);
+		System.out.println("Na disciplina "+disciplina+" sua média é: "+media);
+	}
+	}
+
+}
